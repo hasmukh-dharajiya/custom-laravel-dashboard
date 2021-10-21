@@ -8,8 +8,21 @@ Complete REST API with Laravel 8.x and Frontend integration Mini Project. The la
 3. Edit database credentials in .env file `DB_DATABASE=dashboard`
 4. Run `composer install`
 5. Run `php artisan key:generate`
-6. Run `php artisan ser`
-7. `http://127.0.0.1:8000/`
+6. Open `.env` file ang following code
+```
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=      #Your Email ID #
+MAIL_PASSWORD=      #Your Email Password #
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=  #Your Email ID #
+MAIL_FROM_NAME="${APP_NAME}"
+```
+7. Run `php artisan ser`
+8. `http://127.0.0.1:8000/`
+
+`Note`: Please make sure Turn ON `Less secure app access` in your Google account without Email Not Send !.
 
 You should see the list of Data, something like this:
 
@@ -26,7 +39,8 @@ Key Feature of Project.
 - Laravel Blade Template
 - Register,Login and forgot password without jetstream (custom codding)
 
-`Note`: No ajax implement in this dashboard. use laravel blade templating.
+`Note`: Please make sure Turn ON `Less secure app access` in your Google account without Email Not Send !. 
+- Please Following:- `Manage your Google Account => Security => Less secure app access =>Trun ON` 
 
 ## Register View
 ![larave dashboard img](public/images/dashboard-image/register.gif)
@@ -35,4 +49,4 @@ Key Feature of Project.
 ![larave forgot_password img](public/images/dashboard-image/forgot-password.gif)
 
 ## dashboard View
-![larave dashboard img](public/images/dashboard-image/dashboard.gif)
+![larave dashboard img](public/images/dashboard-image/dashboard.png)
