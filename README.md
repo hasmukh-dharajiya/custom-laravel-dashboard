@@ -8,7 +8,7 @@ Complete REST API with Laravel 8.x and Frontend integration Mini Project. The la
 3. Edit database credentials in .env file `DB_DATABASE=dashboard`
 4. Run `composer install`
 5. Run `php artisan key:generate`
-6. Open `.env` file ang following code
+6. Open `.env` file ang following code For send an Email using Gmail SMTP Server
 ```
 MAIL_MAILER=smtp
 MAIL_HOST=smtp.gmail.com
@@ -19,10 +19,15 @@ MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS=  #Your Email ID #
 MAIL_FROM_NAME="${APP_NAME}"
 ```
-7. Run `php artisan ser`
-8. `http://127.0.0.1:8000/`
+7. Open `.env` file ang following code for [Google recaptcha](https://www.google.com/recaptcha/admin)
+```
+NOCAPTCHA_SITEKEY=     # site key #
+NOCAPTCHA_SECRET=      # secret key # 
+```
+8. Run `php artisan ser`
+9. `http://127.0.0.1:8000/`
 
-`Note`: Please make sure Turn ON `Less secure app access` in your Google account athor wise Email Not Send !.
+`Note`: Please make sure Turn ON `Less secure app access` in your Google account athor wise Email Not Send !. [Click here..](https://myaccount.google.com/security)
 
 You should see the list of Data, something like this:
 
@@ -32,7 +37,8 @@ You should see the list of Data, something like this:
 Key Feature of Project.
 
 - Responsive Template use in dashboard
-- use email Google and Laravel feature
+- Use Google 
+- Use email Google and Laravel feature
 - Custom Authentication System (without jetstream)
 - Email Send for Conformation Email
 - verify email, reset password email (custom codding)
