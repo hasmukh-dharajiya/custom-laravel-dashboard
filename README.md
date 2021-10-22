@@ -25,7 +25,7 @@ NOCAPTCHA_SITEKEY=     # site key #
 NOCAPTCHA_SECRET=      # secret key # 
 ```
 8. Run `php artisan ser`
-9. `http://127.0.0.1:8000/`
+9. `http://localhost:8000/`
 
 `Note`: Please make sure Turn ON `Less secure app access` in your Google account athor wise Email Not Send !. [Click here..](https://myaccount.google.com/security)
 
@@ -37,12 +37,12 @@ You should see the list of Data, something like this:
 Key Feature of Project.
 
 - Responsive Template use in dashboard
-- Use Google 
+- Use Google recaptcha
 - Use email Google and Laravel feature
 - Custom Authentication System (without jetstream)
 - Email Send for Conformation Email
 - verify email, reset password email (custom codding)
-- Laravel Blade Template
+- Laravel Bla     de Template
 - Register,Login and forgot password without jetstream (custom codding)
 
 `Note`: Please make sure Turn ON `Less secure app access` in your Google account without Email Not Send !. 
