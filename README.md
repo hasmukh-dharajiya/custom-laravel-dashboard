@@ -22,7 +22,7 @@ MAIL_FROM_NAME="${APP_NAME}"
 7. Run `php artisan ser`
 8. `http://127.0.0.1:8000/`
 
-`Note`: Please make sure Turn ON `Less secure app access` in your Google account without Email Not Send !.
+`Note`: Please make sure Turn ON `Less secure app access` in your Google account athor wise Email Not Send !.
 
 You should see the list of Data, something like this:
 
