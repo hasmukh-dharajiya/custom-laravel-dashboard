@@ -27,7 +27,7 @@ NOCAPTCHA_SECRET=      # secret key #
 8. Run `php artisan ser`
 9. `http://localhost:8000/`
 
-`Note`: Please make sure Turn ON `Less secure app access` in your Google account athor wise Email Not Send !. [Click here..](https://myaccount.google.com/security)
+`Note`: Please make sure Turn ON `Less secure app access` in your Google account other wise Email Not Send !. [Click here..](https://myaccount.google.com/security)
 
 You should see the list of Data, something like this:
 
