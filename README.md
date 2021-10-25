@@ -1,4 +1,4 @@
-## About Laravel
+## custom-laravel-dashboard
 
 Complete REST API with Laravel 8.x and Frontend integration Mini Project. The latest version of one of the most popular PHP frameworks - to create a REST API CRUD web application with a MySQL database and Front end styles from scratch and step by step starting with the installation of Composer (PHP package manager) to implementing and serving your application.
 
