@@ -1,6 +1,6 @@
 ## custom-laravel-dashboard
-
-Complete REST API with Laravel 8.x and Frontend integration Mini Project. The latest version of one of the most popular PHP frameworks - to create a REST API CRUD web application with a MySQL database and Front end styles from scratch and step by step starting with the installation of Composer (PHP package manager) to implementing and serving your application.
+About
+custom Laravel dashboard. Real World Laravel 8x Dashboard. Dashboard features such as: Custom Authentication, Google re-captcha, Email Verification, custom-login-register-forgot password (without jetstream or Livewire).
 
 ## How to use
 1. git clone `git clone https://github.com/hasmukh-dharajiya/custom-laravel-dashboard.git`
