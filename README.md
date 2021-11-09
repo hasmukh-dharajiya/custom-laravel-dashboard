@@ -7,7 +7,8 @@ custom Laravel dashboard. Real World Laravel 8x Dashboard. Dashboard features su
 3. Edit database credentials in .env file `DB_DATABASE=dashboard`
 4. Run `composer install`
 5. Run `php artisan key:generate`
-6. Open `.env` file ang following code For send an Email using Gmail SMTP Server
+6. Run `php artisan migrate`
+7. Open `.env` file ang following code For send an Email using Gmail SMTP Server
 ```
 MAIL_MAILER=smtp
 MAIL_HOST=smtp.gmail.com
