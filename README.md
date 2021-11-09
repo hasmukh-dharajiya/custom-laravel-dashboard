@@ -1,5 +1,4 @@
 ## custom-laravel-dashboard
-About
 custom Laravel dashboard. Real World Laravel 8x Dashboard. Dashboard features such as: Custom Authentication, Google re-captcha, Email Verification, custom-login-register-forgot password (without jetstream or Livewire).
 
 ## How to use
